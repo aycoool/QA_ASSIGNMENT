@@ -12,7 +12,7 @@
  c) Generation of XML file ofr response Message.
  
 
-# STEP-BY-STEP OF THE APPLICATION RUN
+# STEP-BY-STEP OF THE APPLICATION RUN USING THE qa-assignment1.jar
 
   To execute the developed applcation the below steps needs to be followed:
  	
