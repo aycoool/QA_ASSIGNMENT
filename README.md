@@ -22,8 +22,20 @@
 	
 	c. Type cd <<pathfile of the downloaded applcation on the system >> e.g  cd  C:\Users\Owner\Desktop\BACK-TO-SCHOOL\QUALITY ASSURANCE\ASSIGNMENT\Assignment1/
 	
-	d. Copy the xml file (either order.xml) in the same directory for e.g. C:\Users\Owner\Desktop\BACK-TO-SCHOOL\QUALITY ASSURANCE\ASSIGNMENT\Assignment1/
+	d. Ensure the test XML file to use is in the path of the downloaded files. I have a sample XML file "IncomingOrder" as giving in Brightspace that i used for test. 
 		
-	e. Type java -jar qa_assignment1.jar on the command prompt to run the program. This execute the application Jar and prompt users to enter the name of the XML file and press Enter button
+	e.In the Prompt of  step C adbove when you have changed to the directory type : java -jar qa-assignment1.jar ( i.e  C:\Users\Owner\Desktop\BACK-TO-SCHOOL\QUALITY ASSURANCE\ASSIGNMENT\Assignment1> java -jar qa-assignment1.jar ) this will run the Application and ask for the filename of the XML.
 	
 	
+# EMBEDED DETAILS ( MOCKED DATA) 
+
+I have outcoded the following for the validation that would be passed from the XML file.:
+Authentication of Dealer:
+<dealerid>XXX-1234-ABCD-1234</dealerid>
+<dealeraccesskey>kkklas8882kk23nllfjj88290</dealeraccesskey>
+
+Validation of the dealer orders:
+<partnumber>1234</partnumber>
+<quantity>2</quantity>
+
+The above mentioned if remained same in the XML that will be used for test it generate an XML for a succcessful Response but to perform Negative Test , that entries should be changed, this will generate an XML for a Failed Response message.
